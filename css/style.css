@@ -15,7 +15,7 @@ body {
 
 main {
   max-width: 980px;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ header > picture {
   
 @media screen and (max-width: 992px) {
   header > picture {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -44,6 +44,12 @@ article {
   padding: 2.5rem;
   border-radius: 2px;
   background: rgb(40, 38, 35, 0.7);
+}
+
+@media screen and (max-width: 992px) {
+  article {
+    margin-bottom: 10%;
+  }
 }
 
 article::after {
